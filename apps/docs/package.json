@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@codemirror/lang-javascript": "6.2.2",
+    "@uiw/codemirror-theme-github": "^4.21.25",
+    "@uiw/react-codemirror": "4.21.25",
     "next": "canary",
     "react": "experimental",
-    "react-dom": "experimental"
+    "react-dom": "experimental",
+    "yet-another-live-editor": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "latest",
